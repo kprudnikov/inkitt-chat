@@ -1,0 +1,27 @@
+html {
+  /*Spacings*/
+  --gutter-md: 16px;
+  --gutter-xs: 4px;
+
+  /*Breakpoints*/
+  --breakpoint-lg: 1200px;
+
+  /*fonts*/
+  --primary-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  /*Palette*/
+  --primary-color-text: black;
+  --primary-color-background: #ddd;
+  --color-background-light: #eee;
+
+  --color-white: #fff;
+
+  /* Borders */
+  --border-radius-md: 8px;
+  --border-color-primary: black;
+  --border-color-dim: #ccc;
+  --border-style-primary: solid;
+  --border-width-xs: 1px;
+}
