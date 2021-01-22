@@ -37,7 +37,7 @@ function App() {
     });
   };
 
-  const handleAddNewMessage = (newMessage:string) => {
+  const handleAddNewMessage = (newMessage: string) => {
     if (!newMessage) return;
 
     if (selectedThreadId) {
@@ -69,11 +69,11 @@ function App() {
               </Space>
             </ChatWindow>
           </Space>
-          <Space>
-            {selectedThreadId && (
+          {selectedThreadId && (
+            <Space>
               <Message>{">" + messages[selectedThreadId].value}</Message>
-            )}
-          </Space>
+            </Space>
+          )}
           <Space>
             <DialogForm onSubmit={handleAddNewMessage} />
           </Space>

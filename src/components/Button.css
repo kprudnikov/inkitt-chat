@@ -1,0 +1,13 @@
+.button-primary {
+  padding: var(--gutter-sm) var(--gutter-lg);
+  background: var(--color-primary-button-background);
+  color: var(--color-primary-button-text);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background: var(--color-primary-button-background-active);
+}

@@ -1,4 +1,5 @@
 import React, { ReactChildren, ReactChild, MouseEvent } from "react";
+import './Button.css';
 
 interface PropTypes {
   onClick: (event: MouseEvent) => void;

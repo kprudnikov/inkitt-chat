@@ -1,6 +1,8 @@
 html {
   /*Spacings*/
+  --gutter-lg: 32px;
   --gutter-md: 16px;
+  --gutter-sm: 8px;
   --gutter-xs: 4px;
 
   /*Breakpoints*/
@@ -12,16 +14,25 @@ html {
     sans-serif;
 
   /*Palette*/
-  --primary-color-text: black;
-  --primary-color-background: #ddd;
-  --color-background-light: #eee;
+  --primary-color-text: #000;
+  --primary-color-background: #e5e5e5;
+  --color-background-light: #fffefb;
+  --color-background-accent: #e9f3ff;
+  --color-primary-button-background: #2487ff;
+  --color-primary-button-background-active: #006bec;
+  --color-primary-button-text: #fff;
 
   --color-white: #fff;
+  --color-black: #000;
 
   /* Borders */
-  --border-radius-md: 8px;
-  --border-color-primary: black;
+  --border-radius-sm: 4px;
+  --border-color-primary: #bddbff;
   --border-color-dim: #ccc;
   --border-style-primary: solid;
   --border-width-xs: 1px;
+  --border-primary: var(--border-width-xs) var(--border-style-primary) var(--border-color-primary);
+
+  /* Shadow */
+  --shadow-md: 0 0 5px var(--border-color-primary);
 }

@@ -6,5 +6,5 @@
 
 .dialog-form > .input {
   flex: 1;
-  margin-right: var(--gutter-md);
+  margin-right: var(--gutter-sm);
 }

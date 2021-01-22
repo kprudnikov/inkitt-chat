@@ -39,7 +39,7 @@
 }
 
 .thread-message-wrapper_active {
-  background: var(--color-background-light);
+  background: var(--color-background-accent);
 }
 
 .thread-message-wrapper:hover > .button-primary,
@@ -58,7 +58,7 @@
 }
 
 .thread-message-wrapper:hover {
-  background: var(--color-background-light);
+  background: var(--color-background-accent);
 }
 
 .thread-message-wrapper:hover > .button-primary {

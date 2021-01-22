@@ -1,7 +1,7 @@
 .chat-window {
-  background: var(--primary-color-background);
-  border-radius: var(--border-radius-md);
-  border: var(--border-width-xs) var(--border-style-primary) var(--border-color-primary);
+  background: var(--color-background-light);
+  border: var(--border-primary);
+  border-radius: var(--border-radius-sm);
   height: 50vh;
   overflow-y: auto;
 }

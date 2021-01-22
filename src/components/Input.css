@@ -1,3 +1,6 @@
 .input {
   padding: var(--gutter-xs);
+  border: none;
+  border: var(--border-primary);
+  border-radius: var(--border-radius-sm);
 }

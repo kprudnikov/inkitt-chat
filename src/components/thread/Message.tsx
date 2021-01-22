@@ -1,4 +1,5 @@
 import React, { ReactChildren, ReactChild } from "react";
+import './Message.css';
 
 interface PropTypes {
   children: ReactChildren | ReactChild;

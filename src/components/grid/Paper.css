@@ -1,3 +1,4 @@
 .paper {
-  background: var(--color-white);
+  background: var(--color-background-accent);
+  box-shadow: var(--shadow-md);
 }
