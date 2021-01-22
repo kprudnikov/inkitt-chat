@@ -1,6 +1,11 @@
 ## Inkitt Chat App
 
+### Live preview
+
+https://inkittchat.netlify.app
+
 ### How to run this app
+
 ```
 1. yarn install
 2. yarn start
