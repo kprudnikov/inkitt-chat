@@ -2,7 +2,7 @@ import React, { ReactChildren, ReactChild, MouseEvent } from "react";
 import './Button.css';
 
 interface PropTypes {
-  onClick: (event: MouseEvent) => void;
+  onClick?: (event: MouseEvent) => void;
   children: ReactChildren | ReactChild;
   ariaDescribedBy?: string;
 }

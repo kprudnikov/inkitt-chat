@@ -31,7 +31,7 @@ const DialogForm = ({ onSubmit }: PropTypes) => {
   return (
     <form onSubmit={handleFormSubmit} data-test-id="dialog-form" className="dialog-form">
       <Input onChange={onTextChange} value={enteredText} placeholder="Enter your message" />
-      <Button onClick={handleFormSubmit}>Send</Button>
+      <Button>Send</Button>
     </form>
   );
 };
