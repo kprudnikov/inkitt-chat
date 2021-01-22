@@ -1,0 +1,10 @@
+.dialog-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dialog-form > .input {
+  flex: 1;
+  margin-right: var(--gutter-md);
+}

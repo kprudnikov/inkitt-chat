@@ -1,0 +1,11 @@
+.chat-window {
+  background: var(--primary-color-background);
+  border-radius: var(--border-radius-md);
+  border: var(--border-width-xs) var(--border-style-primary) var(--border-color-primary);
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.chat-window .space {
+  padding-left: 0; /* dirty hack */
+}
