@@ -1,0 +1,66 @@
+.thread-wrapper {
+  position: relative;
+  padding-left: var(--gutter-md);
+}
+
+.thread-wrapper > .thread-wrapper {
+  border-left: var(--border-width-xs) var(--border-style-primary) var(--border-color-dim);
+}
+.thread-wrapper > .thread-wrapper + .thread-wrapper:before {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--gutter-md));
+  height: var(--gutter-md);
+  left: calc(-1 * var(--border-width-xs));
+  border-left: var(--border-width-xs) var(--border-style-primary) var(--border-color-dim);
+}
+
+.thread-message-wrapper > .button-primary {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.thread-message-wrapper > .button-primary { /* visually hidden to allow accessibility */
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.thread-message-wrapper > .button-primary:focus {
+  clip: initial;
+  clip-path: none;
+  height: auto;
+  overflow: auto;
+  width: auto;
+}
+
+.thread-message-wrapper_active {
+  background: var(--color-background-light);
+}
+
+.thread-message-wrapper:hover > .button-primary,
+.thread-message-wrapper:focus > .button-primary,
+.thread-message-wrapper_active > .button-primary {
+  clip: initial;
+  clip-path: none;
+  height: auto;
+  overflow: auto;
+  width: auto;
+}
+
+.thread-message-wrapper {
+  position: relative;
+  padding-right: 50px; /* Button width */
+}
+
+.thread-message-wrapper:hover {
+  background: var(--color-background-light);
+}
+
+.thread-message-wrapper:hover > .button-primary {
+  display: initial;
+}

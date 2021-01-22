@@ -1,0 +1,5 @@
+.message {
+  margin: 0;
+  padding-bottom: var(--gutter-xs);
+  padding-top: var(--gutter-xs);
+}
